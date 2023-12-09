@@ -155,7 +155,7 @@ header {
   gap: 20px;
 }
 
-header-link {
+.header-link {
   text-decoration: none;
   color: #eb5e28;
 }
