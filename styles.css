@@ -151,4 +151,11 @@ header {
 
 .div-header-link {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #eb5e28;
 }
