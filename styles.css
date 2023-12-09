@@ -137,7 +137,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+/* HEADER SECTION */
 header {
   background-color: var(--black);
   color: var(--light-grey);
@@ -147,6 +147,7 @@ header {
 }
 
 .header-logo {
+  font-size: 24px;
 }
 
 .div-header-link {
@@ -157,5 +158,11 @@ header {
 
 .header-link {
   text-decoration: none;
-  color: #eb5e28;
+  color: var(--white);
+  font-size: 18px;
+}
+/* LANDING PAGE SECTION */
+main {
+  background-color: var(--black);
+  color: var(--white);
 }
