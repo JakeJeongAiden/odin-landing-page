@@ -165,4 +165,161 @@ header {
 main {
   background-color: var(--black);
   color: var(--white);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.left-container {
+  padding-left: 12%;
+  width: 38%;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+.description {
+  font-weight: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button-signup {
+  background-color: var(--orange);
+  color: var(--light-grey);
+  border: 1px;
+  border-color: var(--orange);
+  border-radius: 5px;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.right-container {
+  object-fit: contain;
+  object-position: center;
+  background-clip: content-box;
+  height: 170px;
+  padding-right: 12%;
+  width: 38%;
+  background-image: url('src/Landing-image.jpg');
+  background-size: ; /* This ensures the image covers the entire container */
+  background-position: center; /* This centers the image within the container */
+  background-repeat: no-repeat; /* Prevents repeating the image if it's smaller than the container */
+}
+/* INFORMATION PAGE */
+.information-page {
+  background-color: var(--white);
+  padding-bottom: 141px;
+}
+
+.info-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+.box-align {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.info-column {
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.blue-block {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  background-color: #ccc;
+  border: solid 3px var(--orange);
+  border-radius: 10px;
+}
+
+.information-text {
+  font-weight: 100;
+  text-align: center;
+}
+/* Quote Page */
+.quote-page {
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--light-grey);
+}
+.quote-container {
+  font-weight: 100;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  width: 56%;
+  flex-direction: column;
+  justify-content: center;
+}
+blockquote {
+  font-style: italic;
+  color: var(--grey);
+  font-size: 36px;
+  font-stretch: narrower;
+  line-height: 1.1em;
+
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+.blockquote-author {
+  color: var(--grey);
+  font-weight: bold;
+  align-self: self-end;
+  padding-right: 1.5em;
+}
+/* CALL TO ACTION PAGE */
+.call-to-action-page {
+  background-color: var(--white);
+  padding: 10% 200px;
+}
+
+.quote-box {
+  color: var(--white);
+  border-radius: 6px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sign-up-button {
+  background-color: var(--orange);
+  color: var(--white);
+  border: solid 1px var(--white);
+
+  border-radius: 5px;
+
+  padding: 0.3em 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+/* FOOTER */
+footer {
+  font-weight: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: var(--white);
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
 }
