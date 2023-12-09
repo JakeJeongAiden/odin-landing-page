@@ -1,3 +1,14 @@
+:root {
+  /* Color variables */
+  --black: #252422;
+  --orange: #eb5e28;
+  --grey: #403d39;
+  --light-grey: #ccc5b9;
+  --white: #fffcf2;
+  /* Font */
+  font-family: 'Roboto', sans-serif;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -125,4 +136,19 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+header {
+  background-color: var(--black);
+  color: var(--light-grey);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 12%;
+}
+
+.header-logo {
+}
+
+.div-header-link {
+  display: flex;
 }
